@@ -186,10 +186,12 @@ Tienda_videojuegos/
 
 ## Qué mejoré respecto a la v1 (2023)
 
-La [primera versión](https://superlative-bunny-bdcb0d.netlify.app/) era un
-sitio estático en HTML/CSS/JS, con los productos hardcodeados en el código y
-un formulario de "alta" que no se conectaba a ningún lado. La v2 es una
-aplicación real:
+La [primera versión](https://superlative-bunny-bdcb0d.netlify.app/) la hice
+en 2023, cuando estaba cursando el bootcamp de Full Stack Engineer en
+EducaciónIT, y era un sitio estático en HTML/CSS/JS, con los productos
+hardcodeados en el código y un formulario de "alta" que no se conectaba a
+ningún lado. Ahora, con más experiencia, la retomé y la volví a hacer de
+cero como una aplicación real:
 
 | v1 (2023) | v2 (2026) |
 |---|---|
