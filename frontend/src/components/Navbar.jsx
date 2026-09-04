@@ -61,7 +61,7 @@ export default function Navbar() {
                 className={({ isActive }) => `btn btn-outline-light ${isActive ? "active" : ""}`}
                 onClick={closeMenu}
               >
-                Alta
+                Administración
               </NavLink>
             )}
 

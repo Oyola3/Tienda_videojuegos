@@ -824,3 +824,129 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== PANEL ABM (Alta / Editar productos) ===== */
+.fondo-abm {
+  max-width: 1200px;
+}
+
+.abm-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.abm-layout .altapag {
+  padding-right: 3.5rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.abm-form-subtitulo {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+  margin: 0 0 1.2rem;
+}
+
+.abm-layout .altapag {
+  justify-content: flex-start;
+}
+
+.abm-lista h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.abm-tabla {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.abm-fila {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  align-items: center;
+  gap: 0.9rem;
+  background-color: #1e2130;
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid transparent;
+}
+
+.abm-fila--activa {
+  border-color: var(--pichi-blue);
+  background-color: rgba(33, 150, 243, 0.1);
+}
+
+.abm-fila img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.abm-fila-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.abm-fila-info strong {
+  font-size: 0.95rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.abm-fila-info span {
+  font-size: 0.78rem;
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
+.abm-fila-acciones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.abm-fila-acciones .botoneditar,
+.abm-fila-acciones .botonbaja {
+  margin: 0;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.cancelar-edicion {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--pichi-blue);
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 900px) {
+  .abm-layout {
+    grid-template-columns: 1fr;
+  }
+  .abm-layout .altapag {
+    padding-right: 0;
+    border-right: none;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+@media (max-width: 480px) {
+  .abm-fila {
+    grid-template-columns: 44px 1fr;
+  }
+  .abm-fila-acciones {
+    grid-column: 1 / -1;
+    justify-content: flex-end;
+  }
+}

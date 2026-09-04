@@ -47,8 +47,13 @@ rechaza esas acciones si el usuario no tiene el rol correcto).
 
 ## Capturas
 
-_(agregar 2-3 capturas del catálogo, el detalle de producto y el panel de
-alta — se ven mucho mejor en el README que solo texto)_
+<table>
+<tr>
+<td align="center"><b>Catálogo</b><br><img src="screenshots/catalogo.png" width="280"></td>
+<td align="center"><b>Administración (ABM)</b><br><img src="screenshots/administracion.png" width="280"></td>
+<td align="center"><b>Carrito</b><br><img src="screenshots/carrito.png" width="280"></td>
+</tr>
+</table>
 
 ## Stack técnico
 
